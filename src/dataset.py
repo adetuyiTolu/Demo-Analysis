@@ -4,10 +4,11 @@ data = {
     "Name": ["Tolu", "Sefunmi", "Eden"],
     "Age": [32, 32, 2],
     "City": [
-        "Laurel",
+        "Ellicot City",
         "Baltimore",
         "Howard",
     ],
 }
 
 df = pd.DataFrame(data)
+
