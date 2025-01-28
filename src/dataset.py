@@ -1,14 +1,4 @@
-import pandas as pd
+from services.data_service import DataService
 
-data = {
-    "Name": ["Tolu", "Sefunmi", "Eden"],
-    "Age": [32, 32, 2],
-    "City": [
-        "Ellicot City",
-        "Baltimore",
-        "Howard",
-    ],
-}
-
-df = pd.DataFrame(data)
-
+data = DataService()
+data.run()
